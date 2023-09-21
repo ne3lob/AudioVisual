@@ -1,0 +1,40 @@
+{
+    "name": "NovationControlActionAsset",
+    "maps": [
+        {
+            "name": "Novation",
+            "id": "b4a956d0-5d92-42f7-819e-28db445dd5c9",
+            "actions": [
+                {
+                    "name": "SendA1",
+                    "type": "Value",
+                    "id": "e8e97132-28ab-47f2-bcb1-7420274697cb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bd209d12-30f3-4ecb-85c8-3b38eeb2b6f3",
+                    "path": "<MidiDevice>/control013",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendA1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "AVJANA",
+            "bindingGroup": "AVJANA",
+            "devices": []
+        }
+    ]
+}
