@@ -52,11 +52,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Foam:
-        m_Texture: {fileID: 2800000, guid: 5f18511402154bf18ca40b7406ed597e, type: 3}
+        m_Texture: {fileID: -2231058418007342408, guid: 300e3d104bab54b41ba9cdde45d885bb,
+          type: 3}
         m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _FoamDistortion:
-        m_Texture: {fileID: 2800000, guid: b400089c0dd5478b9e4f518945cd1fe7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -68,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalOnlyNoPolyMode:
-        m_Texture: {fileID: 2800000, guid: e9f5cbcd3734429daf37d699424eb645, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -103,12 +104,12 @@ Material:
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
-    - _EmissionIntensity: 6.07
+    - _EmissionIntensity: 29.4
     - _EmissionIntensity1: 1.09
     - _EmissionWeight: 1.12
     - _EmissionWeight1: 1.12
     - _EnableFogOnTransparent: 1
-    - _FoamDist: 0.788
+    - _FoamDist: 0.478
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -116,7 +117,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Opacity: 0.291
+    - _Opacity: 0.339
     - _Parallax: 0.02
     - _ReceivesSSR: 1
     - _RenderQueueType: 5
@@ -141,8 +142,8 @@ Material:
     - _TransparentZWrite: 0
     - _UVSec: 0
     - _UseShadowThreshold: 0
-    - _WaveHeight: 0.15
-    - _WaveSpeed: 0.07
+    - _WaveHeight: 0.2
+    - _WaveSpeed: 0.28
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
@@ -153,5 +154,5 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FoamColor: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0}
-    - _WaterColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+    - _WaterColor: {r: 0.6698113, g: 0.40765247, b: 0.36966002, a: 1}
   m_BuildTextureStacks: []

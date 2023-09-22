@@ -13,6 +13,258 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "SendA2",
+                    "type": "Value",
+                    "id": "ecbd2b60-2a88-4ff1-b300-257c3d654563",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendA3",
+                    "type": "Value",
+                    "id": "4a8b7580-9f46-448a-a229-06b6934ce014",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendA4",
+                    "type": "Value",
+                    "id": "89f29161-675e-4634-918c-f256b1fe3820",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendA5",
+                    "type": "Value",
+                    "id": "305b5255-25cd-41df-a1b2-652a05ee72bf",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendA6",
+                    "type": "Value",
+                    "id": "6d84fce4-9edb-4e25-8484-e1e085d2684b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendA7",
+                    "type": "Value",
+                    "id": "413550e4-fc63-4e72-8f13-6b7117f887bc",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendA8",
+                    "type": "Value",
+                    "id": "8b8607ae-b615-461f-a8ef-6522db0dab4a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendB1",
+                    "type": "Value",
+                    "id": "fcfe25dc-f3f3-448e-95f3-30cd41028003",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendB2",
+                    "type": "Value",
+                    "id": "6b2324a7-3024-4cb2-a30e-82e95d8e0c60",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendB3",
+                    "type": "Value",
+                    "id": "46a014d2-183b-4ea7-8195-43003eb28b1c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendB4",
+                    "type": "Value",
+                    "id": "b504ee50-f198-4c61-bbe4-611d6643b414",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendB5",
+                    "type": "Value",
+                    "id": "0536cac8-6cff-4333-bc69-cf8e2dc798d0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendB6",
+                    "type": "Value",
+                    "id": "1a793335-bd95-4017-baf1-66b86d97605f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendB7",
+                    "type": "Value",
+                    "id": "e8a8ee1e-8cac-4780-bbaa-5450cedf2c77",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendB8",
+                    "type": "Value",
+                    "id": "07d7f323-c63d-4614-bbfa-7ca0a502675e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendPan1",
+                    "type": "Value",
+                    "id": "9777dcbf-4d0b-41c1-ab4a-c5c89053a5cb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendPan2",
+                    "type": "Value",
+                    "id": "583c6595-b47a-4625-b2cd-8c44146f51a0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendPan3",
+                    "type": "Value",
+                    "id": "11864f17-1cc4-4be7-ac4d-d00f2409463c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendPan4",
+                    "type": "Value",
+                    "id": "c30989d3-0ab2-4ae2-82a3-3cd100ef5528",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendPan5",
+                    "type": "Value",
+                    "id": "946696fa-370b-4987-aa2e-d7739ab5150e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendPan6",
+                    "type": "Value",
+                    "id": "61ef8a24-02ac-4335-b5df-28158fe27115",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendPan7",
+                    "type": "Value",
+                    "id": "f4d68c81-a684-4943-b10f-e6486c97c810",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SendPan8",
+                    "type": "Value",
+                    "id": "d44afc4a-df23-4b5a-b0df-b259a32d523b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Slider1",
+                    "type": "PassThrough",
+                    "id": "92bbd57e-ef39-4e0e-b104-eb4a95bd137a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Slider2",
+                    "type": "PassThrough",
+                    "id": "4fad5e6f-6e7c-49c8-bedc-7920e87e8e86",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Slider3",
+                    "type": "PassThrough",
+                    "id": "97c76c0c-2491-4af8-9316-6a03619f5ee6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Slider4",
+                    "type": "PassThrough",
+                    "id": "e62094ca-c692-4615-875b-4bd567363526",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Slider5",
+                    "type": "PassThrough",
+                    "id": "bdd5841a-7fac-48e8-b045-67cb0380d2d8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -24,6 +276,314 @@
                     "processors": "",
                     "groups": "AVJANA",
                     "action": "SendA1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e0a5ec5-9a5f-4ebd-a4c7-506006f8d84d",
+                    "path": "<MidiDevice>/control014",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendA2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "339d503b-930a-40cb-8fe0-75b7ee966ff0",
+                    "path": "<MidiDevice>/control015",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendA3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "29b9b189-ecae-4a40-a090-5789d222af24",
+                    "path": "<MidiDevice>/control016",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendA4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01b5ead8-65c1-4f20-a471-4410c3b1deb7",
+                    "path": "<MidiDevice>/control017",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendA5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad895193-8a0c-4307-8791-6ff5cac64582",
+                    "path": "<MidiDevice>/control018",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendA6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9804c59b-ec9f-439c-a293-12c07aa028c9",
+                    "path": "<MidiDevice>/control019",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendA7",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5967060-dccd-42bb-a739-8d22c53dac4c",
+                    "path": "<MidiDevice>/control020",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendA8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c4839b5-7c97-4c29-b9e9-69d8033809e9",
+                    "path": "<MidiDevice>/control029",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendB1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3cfc6981-70d1-4c3f-9118-bcc780162590",
+                    "path": "<MidiDevice>/control030",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendB2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e74fcefb-042c-4318-ad6f-063d5c315e5b",
+                    "path": "<MidiDevice>/control031",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendB3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "46d62c45-27f4-4656-afe2-5e2052d3f9c9",
+                    "path": "<MidiDevice>/control032",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendB4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c8312b5-21c8-496e-bf30-1c349dedc94e",
+                    "path": "<MidiDevice>/control033",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendB5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e1b6f98-1526-4626-b984-37227c2a14cf",
+                    "path": "<MidiDevice>/control034",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendB6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c27179ee-7067-477d-ad3b-a40de43f8a18",
+                    "path": "<MidiDevice>/control035",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendB7",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ff03a62-42fd-405a-992c-e72d38744fd7",
+                    "path": "<MidiDevice>/control036",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendB8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df10a2b7-2438-4e80-a648-89f2bd644ce6",
+                    "path": "<MidiDevice>/control049",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendPan1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9099069-835a-434e-a695-c8af50b2e47c",
+                    "path": "<MidiDevice>/control050",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendPan2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9020e83-c24c-452b-b6ca-424c77156e59",
+                    "path": "<MidiDevice>/control051",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendPan3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ce0ff6c-0fc3-4c38-9a56-f6a6db56ca31",
+                    "path": "<MidiDevice>/control052",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendPan4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93bcbe4f-e272-4157-85cf-b9116f824140",
+                    "path": "<MidiDevice>/control053",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendPan5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59876933-689b-43b3-b017-a3237a71adae",
+                    "path": "<MidiDevice>/control054",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendPan6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df0cf721-3fef-433f-ac8b-b4e272eafed7",
+                    "path": "<MidiDevice>/control055",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendPan7",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7858e5cd-5d6f-4d69-bb27-d7d25bfc9737",
+                    "path": "<MidiDevice>/control056",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "SendPan8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "69896c32-e962-4402-91f0-250c999faead",
+                    "path": "<MidiDevice>/control077",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "Slider1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08f384fe-6eb6-45be-872b-e6a2bf6e8331",
+                    "path": "<MidiDevice>/control078",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "Slider2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1143d043-56cb-4c46-9531-1fefe62baa2e",
+                    "path": "<MidiDevice>/control079",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "Slider3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5487ac9e-7106-47a3-b9e5-d566a6a38f01",
+                    "path": "<MidiDevice>/control080",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "Slider4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f771d8a6-a34e-489f-b607-d614657e95bc",
+                    "path": "<MidiDevice>/control081",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "AVJANA",
+                    "action": "Slider5",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

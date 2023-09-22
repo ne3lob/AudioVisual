@@ -35,6 +35,258 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendA2"",
+                    ""type"": ""Value"",
+                    ""id"": ""ecbd2b60-2a88-4ff1-b300-257c3d654563"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendA3"",
+                    ""type"": ""Value"",
+                    ""id"": ""4a8b7580-9f46-448a-a229-06b6934ce014"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendA4"",
+                    ""type"": ""Value"",
+                    ""id"": ""89f29161-675e-4634-918c-f256b1fe3820"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendA5"",
+                    ""type"": ""Value"",
+                    ""id"": ""305b5255-25cd-41df-a1b2-652a05ee72bf"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendA6"",
+                    ""type"": ""Value"",
+                    ""id"": ""6d84fce4-9edb-4e25-8484-e1e085d2684b"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendA7"",
+                    ""type"": ""Value"",
+                    ""id"": ""413550e4-fc63-4e72-8f13-6b7117f887bc"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendA8"",
+                    ""type"": ""Value"",
+                    ""id"": ""8b8607ae-b615-461f-a8ef-6522db0dab4a"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendB1"",
+                    ""type"": ""Value"",
+                    ""id"": ""fcfe25dc-f3f3-448e-95f3-30cd41028003"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendB2"",
+                    ""type"": ""Value"",
+                    ""id"": ""6b2324a7-3024-4cb2-a30e-82e95d8e0c60"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendB3"",
+                    ""type"": ""Value"",
+                    ""id"": ""46a014d2-183b-4ea7-8195-43003eb28b1c"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendB4"",
+                    ""type"": ""Value"",
+                    ""id"": ""b504ee50-f198-4c61-bbe4-611d6643b414"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendB5"",
+                    ""type"": ""Value"",
+                    ""id"": ""0536cac8-6cff-4333-bc69-cf8e2dc798d0"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendB6"",
+                    ""type"": ""Value"",
+                    ""id"": ""1a793335-bd95-4017-baf1-66b86d97605f"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendB7"",
+                    ""type"": ""Value"",
+                    ""id"": ""e8a8ee1e-8cac-4780-bbaa-5450cedf2c77"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendB8"",
+                    ""type"": ""Value"",
+                    ""id"": ""07d7f323-c63d-4614-bbfa-7ca0a502675e"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendPan1"",
+                    ""type"": ""Value"",
+                    ""id"": ""9777dcbf-4d0b-41c1-ab4a-c5c89053a5cb"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendPan2"",
+                    ""type"": ""Value"",
+                    ""id"": ""583c6595-b47a-4625-b2cd-8c44146f51a0"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendPan3"",
+                    ""type"": ""Value"",
+                    ""id"": ""11864f17-1cc4-4be7-ac4d-d00f2409463c"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendPan4"",
+                    ""type"": ""Value"",
+                    ""id"": ""c30989d3-0ab2-4ae2-82a3-3cd100ef5528"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendPan5"",
+                    ""type"": ""Value"",
+                    ""id"": ""946696fa-370b-4987-aa2e-d7739ab5150e"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendPan6"",
+                    ""type"": ""Value"",
+                    ""id"": ""61ef8a24-02ac-4335-b5df-28158fe27115"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendPan7"",
+                    ""type"": ""Value"",
+                    ""id"": ""f4d68c81-a684-4943-b10f-e6486c97c810"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SendPan8"",
+                    ""type"": ""Value"",
+                    ""id"": ""d44afc4a-df23-4b5a-b0df-b259a32d523b"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Slider1"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""92bbd57e-ef39-4e0e-b104-eb4a95bd137a"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Slider2"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""4fad5e6f-6e7c-49c8-bedc-7920e87e8e86"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Slider3"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""97c76c0c-2491-4af8-9316-6a03619f5ee6"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Slider4"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""e62094ca-c692-4615-875b-4bd567363526"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Slider5"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""bdd5841a-7fac-48e8-b045-67cb0380d2d8"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -46,6 +298,314 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
                     ""processors"": """",
                     ""groups"": ""AVJANA"",
                     ""action"": ""SendA1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5e0a5ec5-9a5f-4ebd-a4c7-506006f8d84d"",
+                    ""path"": ""<MidiDevice>/control014"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendA2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""339d503b-930a-40cb-8fe0-75b7ee966ff0"",
+                    ""path"": ""<MidiDevice>/control015"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendA3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""29b9b189-ecae-4a40-a090-5789d222af24"",
+                    ""path"": ""<MidiDevice>/control016"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendA4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""01b5ead8-65c1-4f20-a471-4410c3b1deb7"",
+                    ""path"": ""<MidiDevice>/control017"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendA5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ad895193-8a0c-4307-8791-6ff5cac64582"",
+                    ""path"": ""<MidiDevice>/control018"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendA6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9804c59b-ec9f-439c-a293-12c07aa028c9"",
+                    ""path"": ""<MidiDevice>/control019"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendA7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a5967060-dccd-42bb-a739-8d22c53dac4c"",
+                    ""path"": ""<MidiDevice>/control020"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendA8"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9c4839b5-7c97-4c29-b9e9-69d8033809e9"",
+                    ""path"": ""<MidiDevice>/control029"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendB1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3cfc6981-70d1-4c3f-9118-bcc780162590"",
+                    ""path"": ""<MidiDevice>/control030"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendB2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e74fcefb-042c-4318-ad6f-063d5c315e5b"",
+                    ""path"": ""<MidiDevice>/control031"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendB3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""46d62c45-27f4-4656-afe2-5e2052d3f9c9"",
+                    ""path"": ""<MidiDevice>/control032"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendB4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0c8312b5-21c8-496e-bf30-1c349dedc94e"",
+                    ""path"": ""<MidiDevice>/control033"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendB5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6e1b6f98-1526-4626-b984-37227c2a14cf"",
+                    ""path"": ""<MidiDevice>/control034"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendB6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c27179ee-7067-477d-ad3b-a40de43f8a18"",
+                    ""path"": ""<MidiDevice>/control035"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendB7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9ff03a62-42fd-405a-992c-e72d38744fd7"",
+                    ""path"": ""<MidiDevice>/control036"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendB8"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""df10a2b7-2438-4e80-a648-89f2bd644ce6"",
+                    ""path"": ""<MidiDevice>/control049"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendPan1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e9099069-835a-434e-a695-c8af50b2e47c"",
+                    ""path"": ""<MidiDevice>/control050"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendPan2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b9020e83-c24c-452b-b6ca-424c77156e59"",
+                    ""path"": ""<MidiDevice>/control051"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendPan3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8ce0ff6c-0fc3-4c38-9a56-f6a6db56ca31"",
+                    ""path"": ""<MidiDevice>/control052"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendPan4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""93bcbe4f-e272-4157-85cf-b9116f824140"",
+                    ""path"": ""<MidiDevice>/control053"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendPan5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""59876933-689b-43b3-b017-a3237a71adae"",
+                    ""path"": ""<MidiDevice>/control054"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendPan6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""df0cf721-3fef-433f-ac8b-b4e272eafed7"",
+                    ""path"": ""<MidiDevice>/control055"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendPan7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7858e5cd-5d6f-4d69-bb27-d7d25bfc9737"",
+                    ""path"": ""<MidiDevice>/control056"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""SendPan8"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""69896c32-e962-4402-91f0-250c999faead"",
+                    ""path"": ""<MidiDevice>/control077"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""Slider1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""08f384fe-6eb6-45be-872b-e6a2bf6e8331"",
+                    ""path"": ""<MidiDevice>/control078"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""Slider2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1143d043-56cb-4c46-9531-1fefe62baa2e"",
+                    ""path"": ""<MidiDevice>/control079"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""Slider3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5487ac9e-7106-47a3-b9e5-d566a6a38f01"",
+                    ""path"": ""<MidiDevice>/control080"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""Slider4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f771d8a6-a34e-489f-b607-d614657e95bc"",
+                    ""path"": ""<MidiDevice>/control081"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""Slider5"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -63,6 +623,34 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
         // Novation
         m_Novation = asset.FindActionMap("Novation", throwIfNotFound: true);
         m_Novation_SendA1 = m_Novation.FindAction("SendA1", throwIfNotFound: true);
+        m_Novation_SendA2 = m_Novation.FindAction("SendA2", throwIfNotFound: true);
+        m_Novation_SendA3 = m_Novation.FindAction("SendA3", throwIfNotFound: true);
+        m_Novation_SendA4 = m_Novation.FindAction("SendA4", throwIfNotFound: true);
+        m_Novation_SendA5 = m_Novation.FindAction("SendA5", throwIfNotFound: true);
+        m_Novation_SendA6 = m_Novation.FindAction("SendA6", throwIfNotFound: true);
+        m_Novation_SendA7 = m_Novation.FindAction("SendA7", throwIfNotFound: true);
+        m_Novation_SendA8 = m_Novation.FindAction("SendA8", throwIfNotFound: true);
+        m_Novation_SendB1 = m_Novation.FindAction("SendB1", throwIfNotFound: true);
+        m_Novation_SendB2 = m_Novation.FindAction("SendB2", throwIfNotFound: true);
+        m_Novation_SendB3 = m_Novation.FindAction("SendB3", throwIfNotFound: true);
+        m_Novation_SendB4 = m_Novation.FindAction("SendB4", throwIfNotFound: true);
+        m_Novation_SendB5 = m_Novation.FindAction("SendB5", throwIfNotFound: true);
+        m_Novation_SendB6 = m_Novation.FindAction("SendB6", throwIfNotFound: true);
+        m_Novation_SendB7 = m_Novation.FindAction("SendB7", throwIfNotFound: true);
+        m_Novation_SendB8 = m_Novation.FindAction("SendB8", throwIfNotFound: true);
+        m_Novation_SendPan1 = m_Novation.FindAction("SendPan1", throwIfNotFound: true);
+        m_Novation_SendPan2 = m_Novation.FindAction("SendPan2", throwIfNotFound: true);
+        m_Novation_SendPan3 = m_Novation.FindAction("SendPan3", throwIfNotFound: true);
+        m_Novation_SendPan4 = m_Novation.FindAction("SendPan4", throwIfNotFound: true);
+        m_Novation_SendPan5 = m_Novation.FindAction("SendPan5", throwIfNotFound: true);
+        m_Novation_SendPan6 = m_Novation.FindAction("SendPan6", throwIfNotFound: true);
+        m_Novation_SendPan7 = m_Novation.FindAction("SendPan7", throwIfNotFound: true);
+        m_Novation_SendPan8 = m_Novation.FindAction("SendPan8", throwIfNotFound: true);
+        m_Novation_Slider1 = m_Novation.FindAction("Slider1", throwIfNotFound: true);
+        m_Novation_Slider2 = m_Novation.FindAction("Slider2", throwIfNotFound: true);
+        m_Novation_Slider3 = m_Novation.FindAction("Slider3", throwIfNotFound: true);
+        m_Novation_Slider4 = m_Novation.FindAction("Slider4", throwIfNotFound: true);
+        m_Novation_Slider5 = m_Novation.FindAction("Slider5", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -125,11 +713,67 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
     private readonly InputActionMap m_Novation;
     private List<INovationActions> m_NovationActionsCallbackInterfaces = new List<INovationActions>();
     private readonly InputAction m_Novation_SendA1;
+    private readonly InputAction m_Novation_SendA2;
+    private readonly InputAction m_Novation_SendA3;
+    private readonly InputAction m_Novation_SendA4;
+    private readonly InputAction m_Novation_SendA5;
+    private readonly InputAction m_Novation_SendA6;
+    private readonly InputAction m_Novation_SendA7;
+    private readonly InputAction m_Novation_SendA8;
+    private readonly InputAction m_Novation_SendB1;
+    private readonly InputAction m_Novation_SendB2;
+    private readonly InputAction m_Novation_SendB3;
+    private readonly InputAction m_Novation_SendB4;
+    private readonly InputAction m_Novation_SendB5;
+    private readonly InputAction m_Novation_SendB6;
+    private readonly InputAction m_Novation_SendB7;
+    private readonly InputAction m_Novation_SendB8;
+    private readonly InputAction m_Novation_SendPan1;
+    private readonly InputAction m_Novation_SendPan2;
+    private readonly InputAction m_Novation_SendPan3;
+    private readonly InputAction m_Novation_SendPan4;
+    private readonly InputAction m_Novation_SendPan5;
+    private readonly InputAction m_Novation_SendPan6;
+    private readonly InputAction m_Novation_SendPan7;
+    private readonly InputAction m_Novation_SendPan8;
+    private readonly InputAction m_Novation_Slider1;
+    private readonly InputAction m_Novation_Slider2;
+    private readonly InputAction m_Novation_Slider3;
+    private readonly InputAction m_Novation_Slider4;
+    private readonly InputAction m_Novation_Slider5;
     public struct NovationActions
     {
         private @NovationControlActionAsset m_Wrapper;
         public NovationActions(@NovationControlActionAsset wrapper) { m_Wrapper = wrapper; }
         public InputAction @SendA1 => m_Wrapper.m_Novation_SendA1;
+        public InputAction @SendA2 => m_Wrapper.m_Novation_SendA2;
+        public InputAction @SendA3 => m_Wrapper.m_Novation_SendA3;
+        public InputAction @SendA4 => m_Wrapper.m_Novation_SendA4;
+        public InputAction @SendA5 => m_Wrapper.m_Novation_SendA5;
+        public InputAction @SendA6 => m_Wrapper.m_Novation_SendA6;
+        public InputAction @SendA7 => m_Wrapper.m_Novation_SendA7;
+        public InputAction @SendA8 => m_Wrapper.m_Novation_SendA8;
+        public InputAction @SendB1 => m_Wrapper.m_Novation_SendB1;
+        public InputAction @SendB2 => m_Wrapper.m_Novation_SendB2;
+        public InputAction @SendB3 => m_Wrapper.m_Novation_SendB3;
+        public InputAction @SendB4 => m_Wrapper.m_Novation_SendB4;
+        public InputAction @SendB5 => m_Wrapper.m_Novation_SendB5;
+        public InputAction @SendB6 => m_Wrapper.m_Novation_SendB6;
+        public InputAction @SendB7 => m_Wrapper.m_Novation_SendB7;
+        public InputAction @SendB8 => m_Wrapper.m_Novation_SendB8;
+        public InputAction @SendPan1 => m_Wrapper.m_Novation_SendPan1;
+        public InputAction @SendPan2 => m_Wrapper.m_Novation_SendPan2;
+        public InputAction @SendPan3 => m_Wrapper.m_Novation_SendPan3;
+        public InputAction @SendPan4 => m_Wrapper.m_Novation_SendPan4;
+        public InputAction @SendPan5 => m_Wrapper.m_Novation_SendPan5;
+        public InputAction @SendPan6 => m_Wrapper.m_Novation_SendPan6;
+        public InputAction @SendPan7 => m_Wrapper.m_Novation_SendPan7;
+        public InputAction @SendPan8 => m_Wrapper.m_Novation_SendPan8;
+        public InputAction @Slider1 => m_Wrapper.m_Novation_Slider1;
+        public InputAction @Slider2 => m_Wrapper.m_Novation_Slider2;
+        public InputAction @Slider3 => m_Wrapper.m_Novation_Slider3;
+        public InputAction @Slider4 => m_Wrapper.m_Novation_Slider4;
+        public InputAction @Slider5 => m_Wrapper.m_Novation_Slider5;
         public InputActionMap Get() { return m_Wrapper.m_Novation; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -142,6 +786,90 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
             @SendA1.started += instance.OnSendA1;
             @SendA1.performed += instance.OnSendA1;
             @SendA1.canceled += instance.OnSendA1;
+            @SendA2.started += instance.OnSendA2;
+            @SendA2.performed += instance.OnSendA2;
+            @SendA2.canceled += instance.OnSendA2;
+            @SendA3.started += instance.OnSendA3;
+            @SendA3.performed += instance.OnSendA3;
+            @SendA3.canceled += instance.OnSendA3;
+            @SendA4.started += instance.OnSendA4;
+            @SendA4.performed += instance.OnSendA4;
+            @SendA4.canceled += instance.OnSendA4;
+            @SendA5.started += instance.OnSendA5;
+            @SendA5.performed += instance.OnSendA5;
+            @SendA5.canceled += instance.OnSendA5;
+            @SendA6.started += instance.OnSendA6;
+            @SendA6.performed += instance.OnSendA6;
+            @SendA6.canceled += instance.OnSendA6;
+            @SendA7.started += instance.OnSendA7;
+            @SendA7.performed += instance.OnSendA7;
+            @SendA7.canceled += instance.OnSendA7;
+            @SendA8.started += instance.OnSendA8;
+            @SendA8.performed += instance.OnSendA8;
+            @SendA8.canceled += instance.OnSendA8;
+            @SendB1.started += instance.OnSendB1;
+            @SendB1.performed += instance.OnSendB1;
+            @SendB1.canceled += instance.OnSendB1;
+            @SendB2.started += instance.OnSendB2;
+            @SendB2.performed += instance.OnSendB2;
+            @SendB2.canceled += instance.OnSendB2;
+            @SendB3.started += instance.OnSendB3;
+            @SendB3.performed += instance.OnSendB3;
+            @SendB3.canceled += instance.OnSendB3;
+            @SendB4.started += instance.OnSendB4;
+            @SendB4.performed += instance.OnSendB4;
+            @SendB4.canceled += instance.OnSendB4;
+            @SendB5.started += instance.OnSendB5;
+            @SendB5.performed += instance.OnSendB5;
+            @SendB5.canceled += instance.OnSendB5;
+            @SendB6.started += instance.OnSendB6;
+            @SendB6.performed += instance.OnSendB6;
+            @SendB6.canceled += instance.OnSendB6;
+            @SendB7.started += instance.OnSendB7;
+            @SendB7.performed += instance.OnSendB7;
+            @SendB7.canceled += instance.OnSendB7;
+            @SendB8.started += instance.OnSendB8;
+            @SendB8.performed += instance.OnSendB8;
+            @SendB8.canceled += instance.OnSendB8;
+            @SendPan1.started += instance.OnSendPan1;
+            @SendPan1.performed += instance.OnSendPan1;
+            @SendPan1.canceled += instance.OnSendPan1;
+            @SendPan2.started += instance.OnSendPan2;
+            @SendPan2.performed += instance.OnSendPan2;
+            @SendPan2.canceled += instance.OnSendPan2;
+            @SendPan3.started += instance.OnSendPan3;
+            @SendPan3.performed += instance.OnSendPan3;
+            @SendPan3.canceled += instance.OnSendPan3;
+            @SendPan4.started += instance.OnSendPan4;
+            @SendPan4.performed += instance.OnSendPan4;
+            @SendPan4.canceled += instance.OnSendPan4;
+            @SendPan5.started += instance.OnSendPan5;
+            @SendPan5.performed += instance.OnSendPan5;
+            @SendPan5.canceled += instance.OnSendPan5;
+            @SendPan6.started += instance.OnSendPan6;
+            @SendPan6.performed += instance.OnSendPan6;
+            @SendPan6.canceled += instance.OnSendPan6;
+            @SendPan7.started += instance.OnSendPan7;
+            @SendPan7.performed += instance.OnSendPan7;
+            @SendPan7.canceled += instance.OnSendPan7;
+            @SendPan8.started += instance.OnSendPan8;
+            @SendPan8.performed += instance.OnSendPan8;
+            @SendPan8.canceled += instance.OnSendPan8;
+            @Slider1.started += instance.OnSlider1;
+            @Slider1.performed += instance.OnSlider1;
+            @Slider1.canceled += instance.OnSlider1;
+            @Slider2.started += instance.OnSlider2;
+            @Slider2.performed += instance.OnSlider2;
+            @Slider2.canceled += instance.OnSlider2;
+            @Slider3.started += instance.OnSlider3;
+            @Slider3.performed += instance.OnSlider3;
+            @Slider3.canceled += instance.OnSlider3;
+            @Slider4.started += instance.OnSlider4;
+            @Slider4.performed += instance.OnSlider4;
+            @Slider4.canceled += instance.OnSlider4;
+            @Slider5.started += instance.OnSlider5;
+            @Slider5.performed += instance.OnSlider5;
+            @Slider5.canceled += instance.OnSlider5;
         }
 
         private void UnregisterCallbacks(INovationActions instance)
@@ -149,6 +877,90 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
             @SendA1.started -= instance.OnSendA1;
             @SendA1.performed -= instance.OnSendA1;
             @SendA1.canceled -= instance.OnSendA1;
+            @SendA2.started -= instance.OnSendA2;
+            @SendA2.performed -= instance.OnSendA2;
+            @SendA2.canceled -= instance.OnSendA2;
+            @SendA3.started -= instance.OnSendA3;
+            @SendA3.performed -= instance.OnSendA3;
+            @SendA3.canceled -= instance.OnSendA3;
+            @SendA4.started -= instance.OnSendA4;
+            @SendA4.performed -= instance.OnSendA4;
+            @SendA4.canceled -= instance.OnSendA4;
+            @SendA5.started -= instance.OnSendA5;
+            @SendA5.performed -= instance.OnSendA5;
+            @SendA5.canceled -= instance.OnSendA5;
+            @SendA6.started -= instance.OnSendA6;
+            @SendA6.performed -= instance.OnSendA6;
+            @SendA6.canceled -= instance.OnSendA6;
+            @SendA7.started -= instance.OnSendA7;
+            @SendA7.performed -= instance.OnSendA7;
+            @SendA7.canceled -= instance.OnSendA7;
+            @SendA8.started -= instance.OnSendA8;
+            @SendA8.performed -= instance.OnSendA8;
+            @SendA8.canceled -= instance.OnSendA8;
+            @SendB1.started -= instance.OnSendB1;
+            @SendB1.performed -= instance.OnSendB1;
+            @SendB1.canceled -= instance.OnSendB1;
+            @SendB2.started -= instance.OnSendB2;
+            @SendB2.performed -= instance.OnSendB2;
+            @SendB2.canceled -= instance.OnSendB2;
+            @SendB3.started -= instance.OnSendB3;
+            @SendB3.performed -= instance.OnSendB3;
+            @SendB3.canceled -= instance.OnSendB3;
+            @SendB4.started -= instance.OnSendB4;
+            @SendB4.performed -= instance.OnSendB4;
+            @SendB4.canceled -= instance.OnSendB4;
+            @SendB5.started -= instance.OnSendB5;
+            @SendB5.performed -= instance.OnSendB5;
+            @SendB5.canceled -= instance.OnSendB5;
+            @SendB6.started -= instance.OnSendB6;
+            @SendB6.performed -= instance.OnSendB6;
+            @SendB6.canceled -= instance.OnSendB6;
+            @SendB7.started -= instance.OnSendB7;
+            @SendB7.performed -= instance.OnSendB7;
+            @SendB7.canceled -= instance.OnSendB7;
+            @SendB8.started -= instance.OnSendB8;
+            @SendB8.performed -= instance.OnSendB8;
+            @SendB8.canceled -= instance.OnSendB8;
+            @SendPan1.started -= instance.OnSendPan1;
+            @SendPan1.performed -= instance.OnSendPan1;
+            @SendPan1.canceled -= instance.OnSendPan1;
+            @SendPan2.started -= instance.OnSendPan2;
+            @SendPan2.performed -= instance.OnSendPan2;
+            @SendPan2.canceled -= instance.OnSendPan2;
+            @SendPan3.started -= instance.OnSendPan3;
+            @SendPan3.performed -= instance.OnSendPan3;
+            @SendPan3.canceled -= instance.OnSendPan3;
+            @SendPan4.started -= instance.OnSendPan4;
+            @SendPan4.performed -= instance.OnSendPan4;
+            @SendPan4.canceled -= instance.OnSendPan4;
+            @SendPan5.started -= instance.OnSendPan5;
+            @SendPan5.performed -= instance.OnSendPan5;
+            @SendPan5.canceled -= instance.OnSendPan5;
+            @SendPan6.started -= instance.OnSendPan6;
+            @SendPan6.performed -= instance.OnSendPan6;
+            @SendPan6.canceled -= instance.OnSendPan6;
+            @SendPan7.started -= instance.OnSendPan7;
+            @SendPan7.performed -= instance.OnSendPan7;
+            @SendPan7.canceled -= instance.OnSendPan7;
+            @SendPan8.started -= instance.OnSendPan8;
+            @SendPan8.performed -= instance.OnSendPan8;
+            @SendPan8.canceled -= instance.OnSendPan8;
+            @Slider1.started -= instance.OnSlider1;
+            @Slider1.performed -= instance.OnSlider1;
+            @Slider1.canceled -= instance.OnSlider1;
+            @Slider2.started -= instance.OnSlider2;
+            @Slider2.performed -= instance.OnSlider2;
+            @Slider2.canceled -= instance.OnSlider2;
+            @Slider3.started -= instance.OnSlider3;
+            @Slider3.performed -= instance.OnSlider3;
+            @Slider3.canceled -= instance.OnSlider3;
+            @Slider4.started -= instance.OnSlider4;
+            @Slider4.performed -= instance.OnSlider4;
+            @Slider4.canceled -= instance.OnSlider4;
+            @Slider5.started -= instance.OnSlider5;
+            @Slider5.performed -= instance.OnSlider5;
+            @Slider5.canceled -= instance.OnSlider5;
         }
 
         public void RemoveCallbacks(INovationActions instance)
@@ -178,5 +990,33 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
     public interface INovationActions
     {
         void OnSendA1(InputAction.CallbackContext context);
+        void OnSendA2(InputAction.CallbackContext context);
+        void OnSendA3(InputAction.CallbackContext context);
+        void OnSendA4(InputAction.CallbackContext context);
+        void OnSendA5(InputAction.CallbackContext context);
+        void OnSendA6(InputAction.CallbackContext context);
+        void OnSendA7(InputAction.CallbackContext context);
+        void OnSendA8(InputAction.CallbackContext context);
+        void OnSendB1(InputAction.CallbackContext context);
+        void OnSendB2(InputAction.CallbackContext context);
+        void OnSendB3(InputAction.CallbackContext context);
+        void OnSendB4(InputAction.CallbackContext context);
+        void OnSendB5(InputAction.CallbackContext context);
+        void OnSendB6(InputAction.CallbackContext context);
+        void OnSendB7(InputAction.CallbackContext context);
+        void OnSendB8(InputAction.CallbackContext context);
+        void OnSendPan1(InputAction.CallbackContext context);
+        void OnSendPan2(InputAction.CallbackContext context);
+        void OnSendPan3(InputAction.CallbackContext context);
+        void OnSendPan4(InputAction.CallbackContext context);
+        void OnSendPan5(InputAction.CallbackContext context);
+        void OnSendPan6(InputAction.CallbackContext context);
+        void OnSendPan7(InputAction.CallbackContext context);
+        void OnSendPan8(InputAction.CallbackContext context);
+        void OnSlider1(InputAction.CallbackContext context);
+        void OnSlider2(InputAction.CallbackContext context);
+        void OnSlider3(InputAction.CallbackContext context);
+        void OnSlider4(InputAction.CallbackContext context);
+        void OnSlider5(InputAction.CallbackContext context);
     }
 }

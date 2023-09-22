@@ -1,0 +1,246 @@
+{
+    "name": "ControlMapping",
+    "maps": [
+        {
+            "name": "Mapping",
+            "id": "850f18d4-9c8c-43e4-9413-8de09d4a3304",
+            "actions": [
+                {
+                    "name": "GraceWhite",
+                    "type": "Value",
+                    "id": "587ec02d-c1ff-44da-bd2b-7f77e94d8130",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GraceLila",
+                    "type": "Value",
+                    "id": "6af38fa6-58a9-4925-8ab7-ebeaac19047e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BabyBalenciaga",
+                    "type": "Value",
+                    "id": "93f12456-44b7-4f51-b035-f9720a3e157a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MuscleMan",
+                    "type": "Button",
+                    "id": "faa11afc-56eb-4323-a9b9-463d3158e5f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Tera",
+                    "type": "Value",
+                    "id": "f61850d7-515b-401e-8309-2b19fdbf013e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BabyBalensiagaFlying",
+                    "type": "Value",
+                    "id": "c6da6fb0-f944-4620-8112-884cc017b308",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FireMan",
+                    "type": "Value",
+                    "id": "9c3c0f7b-cda9-4cab-9b4e-b5f393f16760",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CameraMoveAround",
+                    "type": "Value",
+                    "id": "61c323d3-5833-442f-a051-a8f445507993",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CameraOutIn",
+                    "type": "Value",
+                    "id": "62c478e5-ec12-4e55-977d-d2f4fecdfbf6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ResetPos",
+                    "type": "Value",
+                    "id": "cdc21792-8028-451a-939f-c3d68263c1d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ResetRot",
+                    "type": "Value",
+                    "id": "2e6898c5-5de2-4e20-a371-71c6e4cf3375",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1adffb89-51c8-423c-8c0d-50fd3a26bb10",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MappingScheme",
+                    "action": "GraceLila",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "28a40e71-7c95-45bd-945f-b9ded2d24f1e",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MappingScheme",
+                    "action": "BabyBalenciaga",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62628364-6ff4-4c05-83a4-182586a37f38",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MappingScheme",
+                    "action": "GraceWhite",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42726c79-45f1-4e41-b9dd-8af822d1a77f",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MappingScheme",
+                    "action": "Tera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "987b3fb1-98f4-42ae-b5b9-16e56ac40d33",
+                    "path": "<XInputController>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MuscleMan",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af2b890d-6d15-4ec3-8e70-e086e6067148",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MappingScheme",
+                    "action": "CameraMoveAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10f75561-106d-4016-a93a-505111751544",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MappingScheme",
+                    "action": "CameraOutIn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "caf3359d-9ae0-4223-9e12-05d05eecb110",
+                    "path": "<XInputController>/leftStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af699595-381f-4e48-ba58-ba5c0b24c4af",
+                    "path": "<XInputController>/rightStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetRot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07336e8a-6088-4435-9708-8147e358d9fb",
+                    "path": "<XInputController>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MappingScheme",
+                    "action": "BabyBalensiagaFlying",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d35322c-b976-480c-8b18-a83f7a1f9ab0",
+                    "path": "<XInputController>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MappingScheme",
+                    "action": "FireMan",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "MappingScheme",
+            "bindingGroup": "MappingScheme",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

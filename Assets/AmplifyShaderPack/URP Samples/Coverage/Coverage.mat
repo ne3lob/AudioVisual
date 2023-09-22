@@ -2,20 +2,24 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Coverage
   m_Shader: {fileID: 4800000, guid: 437516484504ff247a04448230216976, type: 3}
-  m_ShaderKeywords: 
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -55,6 +59,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlphaCutoff: 0.5
     - _Emission: 1
@@ -63,17 +68,18 @@ Material:
     - _Float2: -0.75
     - _Float3: 10.52
     - _MatCapAccurate: 0
-    - _MultiplyDisplacement: 0.9
-    - _NormalScale: 1
-    - _Smoothness: 0.1
-    - _SmoothnessSnow: 0.6
-    - _SnowNormalScale: 1.16
+    - _MultiplyDisplacement: 0.89
+    - _NormalScale: 0.583
+    - _Smoothness: 1.23
+    - _SmoothnessSnow: -33.67
+    - _SnowNormalScale: 0
     - _TessMax: 25
-    - _TessMin: 10
-    - _TessValue: 29.4
+    - _TessMin: 6.9
+    - _TessValue: 2
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _SSS: {r: 0.9632353, g: 0.06374347, b: 0.23123497, a: 0}
     - _TransmissionParams: {r: 0.1, g: 8, b: 3, a: 1}
+  m_BuildTextureStacks: []
