@@ -17,9 +17,9 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 446
+    x: 489
     y: -190
-    width: 932
+    width: 889
     height: 2102
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -3327,7 +3327,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614810}
       inputSlot: {fileID: 8926484042661614777}
-    position: {x: 446, y: 1255}
+    position: {x: 489, y: 1183}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614810
