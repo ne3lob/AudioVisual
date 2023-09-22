@@ -9,14 +9,15 @@ using UnityEngine.Video;
 public class ManagerScript : MonoBehaviour
 {
     //VIDEOS
+    [Header("VIDEOS")]
     
     [SerializeField] private GameObject Video1;
     [Range(0, 1)] [SerializeField] private float SpeedCloudsFantastic;
     [Range(0, 1)] [SerializeField] private float AlphaCloudsFantastic;
     
     [SerializeField] private GameObject Video2;
-    [Range(0, 10)] [SerializeField] private float SpeedWitches;
-    [Range(0, 1)] [SerializeField] private float AlphaWitches;
+    [Range(0, 10)] [SerializeField] private float SpeedWITCHES;
+    [Range(0, 1)] [SerializeField] private float AlphaWITCHES;
     
     [SerializeField] private GameObject Video3;
     [Range(9,10)] [SerializeField] private float SpeedYellow;
@@ -33,12 +34,21 @@ public class ManagerScript : MonoBehaviour
     private VideoPlayer video3player;
     
     // FLOWER
-    [SerializeField] private GameObject Flower;
+    [Header("FLOWER")]
+    
+    [SerializeField] private MeshRenderer[] Flowers;
     [Range(0,1)] [SerializeField] private float FlowerSpeed;
     [Range(0,1)] [SerializeField] private float FlowerAlpha;
-    private Material flowerMaterial;
 
-    // VOLUMES
+    // OCEAN
+    [Header("OCEAN")] 
+    
+    [SerializeField] private GameObject Ocean;
+    private Material oceanMaterial;
+    [Range(0.1f, 1f)] [SerializeField] private float OceanScale;
+
+    // VOLUME
+    [Header("VOLUME")]
 
     [SerializeField] private Volume Volume;
     private Bloom bloom;
@@ -57,7 +67,7 @@ public class ManagerScript : MonoBehaviour
         video3player = Video3.GetComponent<VideoPlayer>();
 
         waterMaterial = WaterPlane.GetComponent<MeshRenderer>().material;
-        flowerMaterial = Flower.GetComponent<MeshRenderer>().material;
+        oceanMaterial = Ocean.GetComponent<MeshRenderer>().material;
     }
 
     // Update is called once per frame
@@ -68,8 +78,8 @@ public class ManagerScript : MonoBehaviour
         video1player.playbackSpeed = SpeedCloudsFantastic;
         video1player.targetCameraAlpha = AlphaCloudsFantastic;
         
-        video2player.playbackSpeed = SpeedWitches;
-        video2player.targetCameraAlpha = AlphaWitches;
+        video2player.playbackSpeed = SpeedWITCHES;
+        video2player.targetCameraAlpha = AlphaWITCHES;
         
         video3player.playbackSpeed = SpeedYellow;
         video3player.targetCameraAlpha = AlphaYellow;
@@ -79,9 +89,15 @@ public class ManagerScript : MonoBehaviour
         waterMaterial.SetFloat("_smoothness", SmoothnessWater);
         
         // FLOWER
-        flowerMaterial.SetFloat("_FloatingStrength", FlowerSpeed);
-        flowerMaterial.SetFloat("_alpha", FlowerAlpha);
-
+        foreach (var var in Flowers)
+        {
+            var.material.SetFloat("_FloatingStrength", FlowerSpeed);
+            var.material.SetFloat("_alpha", FlowerAlpha);
+        }
+        
+        // OCEAN
+        oceanMaterial.SetFloat("_NormalScale", OceanScale);
+        
     }
 
     // VOLUME SETTINGS
