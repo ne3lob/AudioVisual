@@ -8,6 +8,8 @@ using UnityEngine.Video;
 
 public class ManagerScript : MonoBehaviour
 {
+    private InputManagerNovation novationInput;
+    
     //VIDEOS
     [Header("VIDEOS")]
     
@@ -62,6 +64,8 @@ public class ManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        novationInput = GetComponent<InputManagerNovation>();
+        
         video1player = Video1.GetComponent<VideoPlayer>();
         video2player = Video2.GetComponent<VideoPlayer>();
         video3player = Video3.GetComponent<VideoPlayer>();
@@ -77,7 +81,9 @@ public class ManagerScript : MonoBehaviour
         
         video1player.playbackSpeed = SpeedCloudsFantastic;
         video1player.targetCameraAlpha = AlphaCloudsFantastic;
-        
+
+        SpeedWITCHES = novationInput.SendA3;
+        AlphaWITCHES = novationInput.SendA4;
         video2player.playbackSpeed = SpeedWITCHES;
         video2player.targetCameraAlpha = AlphaWITCHES;
         
@@ -92,11 +98,11 @@ public class ManagerScript : MonoBehaviour
         foreach (var var in Flowers)
         {
             var.material.SetFloat("_FloatingStrength", FlowerSpeed);
-            var.material.SetFloat("_alpha", FlowerAlpha);
+            var.material.SetFloat("_alpha", novationInput.Slider1);
         }
         
         // OCEAN
-        oceanMaterial.SetFloat("_NormalScale", OceanScale);
+        oceanMaterial.SetFloat("_NormalScale", novationInput.Slider2);
         
     }
 
@@ -104,6 +110,10 @@ public class ManagerScript : MonoBehaviour
     
     private void FixedUpdate()
     {
+        bloomWeight = novationInput.SendPan1;
+        temperature = novationInput.SendPan2;
+        contrast = novationInput.SendPan3;
+        
         if (Volume.profile.TryGet<Bloom>(out bloom))
         {
             bloom.intensity.value = bloomWeight;
