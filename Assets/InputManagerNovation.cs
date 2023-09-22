@@ -133,13 +133,13 @@ public class InputManagerNovation : MonoBehaviour
     private void SendA1Func(InputAction.CallbackContext value1)
     {
         SendA1 = value1.ReadValue<float>();
-        Debug.Log( value1);
+        
         
     }
     private void SendA2Func(InputAction.CallbackContext value2)
     {
         SendA2 = value2.ReadValue<float>();
-        Debug.Log( value2);
+        
     }
     private void SendA3Func(InputAction.CallbackContext value3)
     {

@@ -1035,7 +1035,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
+  sharedProfile: {fileID: 11400000, guid: edcc8652386cfe0459d775200c5fa125, type: 2}
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
@@ -1082,8 +1082,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pivPos: {fileID: 804828962}
   originalRotationValue: {x: 0, y: 0, z: 0}
-  speedrotation: 0.01
-  speedzoom: 0.01
+  speedrotation: 0.006
+  speedzoom: 0.003
 --- !u!4 &856779722
 Transform:
   m_ObjectHideFlags: 0
@@ -1112,6 +1112,7 @@ GameObject:
   - component: {fileID: 886197744}
   - component: {fileID: 886197743}
   - component: {fileID: 886197746}
+  - component: {fileID: 886197747}
   m_Layer: 0
   m_Name: Input
   m_TagString: Untagged
@@ -1196,6 +1197,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SendA1: 0
+  SendA2: 0
+--- !u!114 &886197747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886197742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69354d67fa850ea4fbf4312c0fd6560e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Volume: {fileID: 832575518}
+  bloomWeight: 0
+  temperature: 0
+  vinigretteWeight: 0
+  dirtWeight: 0
+  scatterWeight: 0
 --- !u!1001 &979119136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1287,7 +1307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!73398921 &1084811812
 VFXRenderer:
   serializedVersion: 1
@@ -1296,7 +1316,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084811811}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1345,7 +1365,13 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0
+        m_Name: Setsize
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: SetVectorVelocity
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
