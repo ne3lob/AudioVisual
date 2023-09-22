@@ -17,7 +17,6 @@ Material:
   - _BLENDMODE_ALPHA
   - _EMISSION
   - _ENABLE_FOG_ON_TRANSPARENT
-  - _LOWPOLY_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -113,11 +112,11 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LowPoly: 1
+    - _LowPoly: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Opacity: 0.339
+    - _Opacity: 0.213
     - _Parallax: 0.02
     - _ReceivesSSR: 1
     - _RenderQueueType: 5
@@ -143,7 +142,7 @@ Material:
     - _UVSec: 0
     - _UseShadowThreshold: 0
     - _WaveHeight: 0.2
-    - _WaveSpeed: 0.28
+    - _WaveSpeed: 0.2
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
@@ -154,5 +153,5 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FoamColor: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0}
-    - _WaterColor: {r: 0.6698113, g: 0.40765247, b: 0.36966002, a: 1}
+    - _WaterColor: {r: 0.57284343, g: 0.67058825, b: 0.36862746, a: 1}
   m_BuildTextureStacks: []
