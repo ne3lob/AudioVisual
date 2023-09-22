@@ -245,21 +245,21 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
                 },
                 {
                     ""name"": ""Slider1"",
-                    ""type"": ""PassThrough"",
+                    ""type"": ""Value"",
                     ""id"": ""92bbd57e-ef39-4e0e-b104-eb4a95bd137a"",
                     ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
                     ""name"": ""Slider2"",
-                    ""type"": ""PassThrough"",
+                    ""type"": ""Value"",
                     ""id"": ""4fad5e6f-6e7c-49c8-bedc-7920e87e8e86"",
                     ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
                     ""name"": ""Slider3"",
@@ -287,6 +287,33 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Slider6"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""ab829174-f511-4de0-b9b4-a94120b9b815"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Slider7"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""7d19c250-a9a2-4bb2-be19-8e39f7df9ad2"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Slider8"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""aa598624-c029-4210-bb88-80078002588a"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -306,7 +333,7 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
                     ""id"": ""5e0a5ec5-9a5f-4ebd-a4c7-506006f8d84d"",
                     ""path"": ""<MidiDevice>/control014"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Clamp(min=-1,max=1)"",
                     ""groups"": ""AVJANA"",
                     ""action"": ""SendA2"",
                     ""isComposite"": false,
@@ -493,7 +520,7 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
                     ""id"": ""b9020e83-c24c-452b-b6ca-424c77156e59"",
                     ""path"": ""<MidiDevice>/control051"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Clamp(max=1)"",
                     ""groups"": ""AVJANA"",
                     ""action"": ""SendPan3"",
                     ""isComposite"": false,
@@ -608,6 +635,39 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
                     ""action"": ""Slider5"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""92828606-aecf-463f-80bd-abbf74ed7466"",
+                    ""path"": ""<MidiDevice>/control082"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""Slider6"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c27467c3-ebf3-4ffc-af47-0732af3f35e1"",
+                    ""path"": ""<MidiDevice>/control083"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""Slider7"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9d304af9-695f-4284-b61d-fa0514b7b935"",
+                    ""path"": ""<MidiDevice>/control084"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""AVJANA"",
+                    ""action"": ""Slider8"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -651,6 +711,9 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
         m_Novation_Slider3 = m_Novation.FindAction("Slider3", throwIfNotFound: true);
         m_Novation_Slider4 = m_Novation.FindAction("Slider4", throwIfNotFound: true);
         m_Novation_Slider5 = m_Novation.FindAction("Slider5", throwIfNotFound: true);
+        m_Novation_Slider6 = m_Novation.FindAction("Slider6", throwIfNotFound: true);
+        m_Novation_Slider7 = m_Novation.FindAction("Slider7", throwIfNotFound: true);
+        m_Novation_Slider8 = m_Novation.FindAction("Slider8", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -741,6 +804,9 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
     private readonly InputAction m_Novation_Slider3;
     private readonly InputAction m_Novation_Slider4;
     private readonly InputAction m_Novation_Slider5;
+    private readonly InputAction m_Novation_Slider6;
+    private readonly InputAction m_Novation_Slider7;
+    private readonly InputAction m_Novation_Slider8;
     public struct NovationActions
     {
         private @NovationControlActionAsset m_Wrapper;
@@ -774,6 +840,9 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
         public InputAction @Slider3 => m_Wrapper.m_Novation_Slider3;
         public InputAction @Slider4 => m_Wrapper.m_Novation_Slider4;
         public InputAction @Slider5 => m_Wrapper.m_Novation_Slider5;
+        public InputAction @Slider6 => m_Wrapper.m_Novation_Slider6;
+        public InputAction @Slider7 => m_Wrapper.m_Novation_Slider7;
+        public InputAction @Slider8 => m_Wrapper.m_Novation_Slider8;
         public InputActionMap Get() { return m_Wrapper.m_Novation; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -870,6 +939,15 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
             @Slider5.started += instance.OnSlider5;
             @Slider5.performed += instance.OnSlider5;
             @Slider5.canceled += instance.OnSlider5;
+            @Slider6.started += instance.OnSlider6;
+            @Slider6.performed += instance.OnSlider6;
+            @Slider6.canceled += instance.OnSlider6;
+            @Slider7.started += instance.OnSlider7;
+            @Slider7.performed += instance.OnSlider7;
+            @Slider7.canceled += instance.OnSlider7;
+            @Slider8.started += instance.OnSlider8;
+            @Slider8.performed += instance.OnSlider8;
+            @Slider8.canceled += instance.OnSlider8;
         }
 
         private void UnregisterCallbacks(INovationActions instance)
@@ -961,6 +1039,15 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
             @Slider5.started -= instance.OnSlider5;
             @Slider5.performed -= instance.OnSlider5;
             @Slider5.canceled -= instance.OnSlider5;
+            @Slider6.started -= instance.OnSlider6;
+            @Slider6.performed -= instance.OnSlider6;
+            @Slider6.canceled -= instance.OnSlider6;
+            @Slider7.started -= instance.OnSlider7;
+            @Slider7.performed -= instance.OnSlider7;
+            @Slider7.canceled -= instance.OnSlider7;
+            @Slider8.started -= instance.OnSlider8;
+            @Slider8.performed -= instance.OnSlider8;
+            @Slider8.canceled -= instance.OnSlider8;
         }
 
         public void RemoveCallbacks(INovationActions instance)
@@ -1018,5 +1105,8 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
         void OnSlider3(InputAction.CallbackContext context);
         void OnSlider4(InputAction.CallbackContext context);
         void OnSlider5(InputAction.CallbackContext context);
+        void OnSlider6(InputAction.CallbackContext context);
+        void OnSlider7(InputAction.CallbackContext context);
+        void OnSlider8(InputAction.CallbackContext context);
     }
 }

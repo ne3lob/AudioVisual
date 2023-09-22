@@ -22,10 +22,11 @@ public class ManagerScript : MonoBehaviour
     [Range(0, 1)] [SerializeField] private float AlphaWITCHES;
     
     [SerializeField] private GameObject Video3;
-    [Range(9,10)] [SerializeField] private float SpeedYellow;
+    [Range(0, 10)] [SerializeField] private float SpeedYellow;
     [Range(0, 1)] [SerializeField] private float AlphaYellow;
     
     [SerializeField] private GameObject WaterPlane;
+    [SerializeField] private GameObject Video4;
     [Range(0, 10)] [SerializeField] private float SpeedWater;
     [Range(0, 1)] [SerializeField] private float AlphaWater;
     [Range(0, 1)] [SerializeField] private float SmoothnessWater;
@@ -34,6 +35,7 @@ public class ManagerScript : MonoBehaviour
     private VideoPlayer video1player;
     private VideoPlayer video2player;
     private VideoPlayer video3player;
+    private VideoPlayer video4player;
     
     // FLOWER
     [Header("FLOWER")]
@@ -69,6 +71,7 @@ public class ManagerScript : MonoBehaviour
         video1player = Video1.GetComponent<VideoPlayer>();
         video2player = Video2.GetComponent<VideoPlayer>();
         video3player = Video3.GetComponent<VideoPlayer>();
+        video4player = Video4.GetComponent<VideoPlayer>();
 
         waterMaterial = WaterPlane.GetComponent<MeshRenderer>().material;
         oceanMaterial = Ocean.GetComponent<MeshRenderer>().material;
@@ -82,15 +85,21 @@ public class ManagerScript : MonoBehaviour
         video1player.playbackSpeed = SpeedCloudsFantastic;
         video1player.targetCameraAlpha = AlphaCloudsFantastic;
 
-        SpeedWITCHES = novationInput.SendA3;
+        SpeedWITCHES = 10*novationInput.SendA3;
         AlphaWITCHES = novationInput.SendA4;
         video2player.playbackSpeed = SpeedWITCHES;
         video2player.targetCameraAlpha = AlphaWITCHES;
+
         
+        AlphaYellow = novationInput.SendB2;
+        SpeedYellow = 10*novationInput.SendB1;
         video3player.playbackSpeed = SpeedYellow;
         video3player.targetCameraAlpha = AlphaYellow;
 
-        video3player.playbackSpeed = SpeedWater;
+        SpeedWater = 10*novationInput.SendPan4;
+        video4player.playbackSpeed = SpeedWater;
+        AlphaWater = novationInput.SendB3;
+        SmoothnessWater = novationInput.SendB4;
         waterMaterial.SetFloat("_alpha", AlphaWater);
         waterMaterial.SetFloat("_smoothness", SmoothnessWater);
         
@@ -103,16 +112,20 @@ public class ManagerScript : MonoBehaviour
         
         // OCEAN
         oceanMaterial.SetFloat("_NormalScale", novationInput.Slider2);
-        
     }
 
     // VOLUME SETTINGS
     
     private void FixedUpdate()
     {
-        bloomWeight = novationInput.SendPan1;
-        temperature = novationInput.SendPan2;
-        contrast = novationInput.SendPan3;
+        // Connect values
+        
+        bloomWeight = 100*novationInput.SendPan1;
+        temperature = (novationInput.SendPan2*200)-100;
+        contrast = (novationInput.SendPan3*200) - 100;
+        
+        
+        // Change values
         
         if (Volume.profile.TryGet<Bloom>(out bloom))
         {
