@@ -306,7 +306,7 @@ public partial class @NovationControlActionAsset: IInputActionCollection2, IDisp
                     ""id"": ""5e0a5ec5-9a5f-4ebd-a4c7-506006f8d84d"",
                     ""path"": ""<MidiDevice>/control014"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Clamp(min=-1,max=1)"",
                     ""groups"": ""AVJANA"",
                     ""action"": ""SendA2"",
                     ""isComposite"": false,
