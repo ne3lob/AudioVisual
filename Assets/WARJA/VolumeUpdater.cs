@@ -9,7 +9,8 @@ using UnityEngine.VFX;
 
 public class VolumeUpdater : MonoBehaviour
 {
-    public VisualEffect vfx;
+    public VisualEffect vfxOne;
+    public VisualEffect vfxTwo;
 
     private InputManagerNovation inputScript;
 
@@ -17,6 +18,7 @@ public class VolumeUpdater : MonoBehaviour
     [Header("VOLUME")] [SerializeField] private Volume Volume;
     private Bloom bloom;
     private Vignette vignette;
+    private Bloom dirt;
     private WhiteBalance whiteBalance;
 
     private ColorAdjustments colorAdjustments;
@@ -37,13 +39,15 @@ public class VolumeUpdater : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bloomWeight = inputScript.SendA1;
-        scatterWeight = inputScript.SendA1;
-        dirtWeight = inputScript.SendA1 * 100;
-        vinigretteWeight = inputScript.SendA1;
-        temperature = (inputScript.SendA1 * 200f) - 100f;
-        vfx.SetFloat("Setsize", inputScript.SendA1 * 0.15f);
-        vfx.SetFloat("SetVectorVelocity", inputScript.SendA1 * 0.5f);
+        bloomWeight = inputScript.Slider5;
+         scatterWeight = inputScript.Slider6;
+         dirtWeight = inputScript.Slider7 * 10;
+         vinigretteWeight = inputScript.Slider8;
+         temperature = (inputScript.SendPan8 * 200f) - 100f;
+        vfxOne.SetFloat("Setsize", inputScript.SendA5 * 0.15f);
+        vfxOne.SetFloat("SetVectorVelocity", inputScript.SendA6 * 0.5f);
+        vfxTwo.SetFloat("SizeVfX2", inputScript.SendB5 * 0.15f);
+        vfxTwo.SetFloat("SetVelocytyVFX2", inputScript.SendB6 * 0.5f);
     }
 
     // VOLUME SETTINGS
@@ -60,9 +64,9 @@ public class VolumeUpdater : MonoBehaviour
             bloom.scatter.value = scatterWeight;
         }
 
-        if (Volume.profile.TryGet<Bloom>(out bloom))
+        if (Volume.profile.TryGet<Bloom>(out dirt))
         {
-            bloom.dirtIntensity.value = dirtWeight;
+           dirt.dirtIntensity.value = dirtWeight;
         }
 
         if (Volume.profile.TryGet<Vignette>(out vignette))

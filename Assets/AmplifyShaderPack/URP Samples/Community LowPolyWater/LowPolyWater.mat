@@ -142,7 +142,7 @@ Material:
     - _UVSec: 0
     - _UseShadowThreshold: 0
     - _WaveHeight: 0.2
-    - _WaveSpeed: 0.2
+    - _WaveSpeed: 0.1
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
